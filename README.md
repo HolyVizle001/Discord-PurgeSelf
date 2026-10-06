@@ -2,7 +2,7 @@
 Bulk delete your own Discord messages from DMs or servers. Self-bot tool with strict rate-limiting.
 
 
-> **NOTE**: This uses self-bot automation which violates Discord's Terms of Service. Your account may be banned. Use only on accounts you are willing to lose. The tool will not delete all your messages from your DMs with a user, or a server, from running it once. For safety, it stops deleting after around 30-60 messages. Just run it again. Read the license.
+> **NOTE**: This uses self-bot automation which violates Discord's Terms of Service. Your account may be banned. Use only on accounts you are willing to lose. The tool will not delete all your messages from your DMs with a user, or a server, from running it once. For safety, it stops deleting after around 90 messages. Just run it again. Read the license.
 
 ## Features
 - Delete all your messages from a specific DM conversation
