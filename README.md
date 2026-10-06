@@ -17,5 +17,7 @@ Bulk delete your own Discord messages from DMs or servers. Self-bot tool with st
 
 ## Install & Run
 ```bash
+git clone https://github.com/HolyVizle001/Discord-PurgeSelf.git
 pip install requests
+cd Discord-purgeself
 python purgeself.py
