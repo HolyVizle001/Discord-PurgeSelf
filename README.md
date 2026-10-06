@@ -13,10 +13,12 @@ Bulk delete your own Discord messages from DMs or servers. Self-bot tool with st
 
 ## What is the safest way to use this?
 - Currently, the limits are set to:
+
         self.min_delay = 0.9
         self.max_delay = 2.2
         self.batch_delay = 4.7
 - The safest, would probably be:
+
         self.min_delay = 1.5      
         self.max_delay = 3.0      
         self.batch_delay = 6     
