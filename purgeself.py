@@ -35,9 +35,9 @@ class DiscordMessageDeleter:
         self.rate_limit_hits = 0
         
         # Strict rate limiting config
-        self.min_delay = 1.2
-        self.max_delay = 2.5
-        self.batch_delay = 5
+        self.min_delay = 0.9
+        self.max_delay = 2.2
+        self.batch_delay = 4.7
     
     def get_user_id(self):
         """Get your own user ID from the token"""
