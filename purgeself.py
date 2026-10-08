@@ -222,7 +222,7 @@ class DiscordMessageDeleter:
         channels = self.get_guild_channels(guild_id)
         
         if not channels:
-            print("❌ No channels found or no access")
+            print("No channels found or no access")
             return
         
         print(f"\nWill process {len(channels)} channels")
@@ -234,7 +234,7 @@ class DiscordMessageDeleter:
             channel_id = channel['id']
             
             print(f"\n{'='*60}")
-            print(f"📍 Channel {idx}/{len(channels)}: #{channel_name}")
+            print(f"Channel {idx}/{len(channels)}: #{channel_name}")
             print(f"{'='*60}")
             
             channel_deleted = 0
@@ -294,7 +294,7 @@ def print_banner():
 ║          Discord Self-Message Purge Tool                     ║
 ║                                                              ║
 ║              Made by HolyVizle001 on GitHub                  ║
-║           https://github.com/HolyVizle001                    ║
+║            https://github.com/HolyVizle001                   ║
 ╚══════════════════════════════════════════════════════════════╝
 """)
 
